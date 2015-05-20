@@ -1,0 +1,17 @@
+# results form dslash --partition 15 --prec half --sdim L --tdim L
+# K40 with boost clocks on, ECC on
+# L - lattice dim
+# A - 0.6.1
+# B - 0.6.1 CUDA_DEVICE_MAX_CONNECTIONS=1
+# A - 0.7 CUDA_DEVICE_MAX_CONNECTIONS=1
+# B - 0.8 fused ghosts + CUDA_DEVICE_MAX_CONNECTIONS=1
+# C - 0.8 fused ghosts + fused exterior kernel + CUDA_DEVICE_MAX_CONNECTIONS=1
+# L, A, B, C
+32 421 434 460 464 461
+28 326 342 434 432 437
+24 231 242 381 392 374
+20 135 145 268 284 288
+16 64 68 140 153 180
+12 22 25 53 58 73
+8 5 5 12 13 16
+
